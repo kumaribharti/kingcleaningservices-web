@@ -1,0 +1,195 @@
+CRITICAL - 2023-10-06 08:35:16 --> Invalid file: "frontend/emptyapartment-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/emptyapartment-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/emptyapartment-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(39): view('frontend/emptyapartment-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->emptyapartment_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:35:37 --> Invalid file: "frontend/premimum-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/premimum-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/premimum-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(75): view('frontend/premimum-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->premimum_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:35:45 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:36:54 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:37:01 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:42:27 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:42:43 --> Invalid file: "frontend/general-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/general-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/general-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(48): view('frontend/general-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->general_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:54:53 --> Invalid file: "frontend/general-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/general-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/general-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(48): view('frontend/general-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->general_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:55:08 --> Invalid file: "frontend/emptyapartment-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/emptyapartment-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/emptyapartment-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(39): view('frontend/emptyapartment-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->emptyapartment_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:55:21 --> Invalid file: "frontend/platinum-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/platinum-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/platinum-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(66): view('frontend/platinum-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->platinum_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:55:27 --> Invalid file: "frontend/premimum-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/premimum-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/premimum-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(75): view('frontend/premimum-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->premimum_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:55:34 --> Invalid file: "frontend/mimi-cleaning.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/mimi-cleaning.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/mimi-cleaning', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(57): view('frontend/mimi-cleaning')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->mimi_cleaning()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:55:39 --> Invalid file: "frontend/emptyapartment-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/emptyapartment-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/emptyapartment-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(39): view('frontend/emptyapartment-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->emptyapartment_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:00:50 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:09:26 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:09:41 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:14:27 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\frontend\work.php on line 1.
+ 1 APPPATH\Views\frontend\work.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php', 1)
+ 2 APPPATH\Views\frontend\work.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\myci4_king_cleaning_ser\\app\\Views\\frontend\\work.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/work', [], true)
+ 6 APPPATH\Controllers\FrontendController.php(93): view('frontend/work')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->work()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:14:39 --> Invalid file: "frontend/emptyapartment-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/emptyapartment-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/emptyapartment-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(39): view('frontend/emptyapartment-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->emptyapartment_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:15:32 --> Invalid file: "frontend/premimum-pricing.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/premimum-pricing.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('frontend/premimum-pricing', [], true)
+ 3 APPPATH\Controllers\FrontendController.php(75): view('frontend/premimum-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FrontendController->premimum_pricing()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontendController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
